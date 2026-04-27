@@ -1,0 +1,26 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/lodash": "^4.17.24",
+    "buffer": "^6.0.3",
+    "parcel": "^2.16.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@effect/platform": "^0.96.1",
+    "effect": "^3.21.2",
+    "lodash": "^4.18.1",
+    "zod": "^4.3.6"
+  }
+}
